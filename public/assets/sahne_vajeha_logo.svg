@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <linearGradient id="goldRibbon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b48228" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#9a6e1a" />
+    </linearGradient>
+    <linearGradient id="cyanStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a7f3d0" />
+    </linearGradient>
+    <linearGradient id="whiteFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent" />
+      <stop offset="50%" stop-color="#b48228" />
+      <stop offset="100%" stop-color="transparent" />
+    </linearGradient>
+  </defs>
+
+  <!-- Islamic Dome Arch Contour -->
+  <path
+    d="M 500 240 
+       C 520 280 625 340 625 470 
+       C 625 500 615 525 600 540
+       L 400 540
+       C 385 525 375 500 375 470
+       C 375 340 480 280 500 240 Z"
+    fill="none"
+    stroke="#38bdf8"
+    stroke-width="5"
+    stroke-opacity="0.85"
+  />
+
+  <!-- Top Gold Bookmark Ribbon hanging from Dome Apex -->
+  <polygon
+    points="478,270 522,270 522,360 500,342 478,360"
+    fill="url(#goldRibbon)"
+    stroke="#855912"
+    stroke-width="3"
+  />
+
+  <!-- Main Calligraphic Outlines "صحن واژه‌ها" -->
+  <!-- Stylized calligraphy base shapes matching the uploaded logo -->
+  <g fill="url(#whiteFill)" stroke="#0284c7" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" filter="url(#softGlow)">
+    
+    <!-- Three dots above ژ in واژه‌ها -->
+    <circle cx="325" cy="365" r="9" fill="#0284c7" stroke="#ffffff" stroke-width="3" />
+    <circle cx="347" cy="365" r="9" fill="#0284c7" stroke="#ffffff" stroke-width="3" />
+    <circle cx="336" cy="345" r="9" fill="#0284c7" stroke="#ffffff" stroke-width="3" />
+
+    <!-- Word: واژه‌ها (Left Side) -->
+    <!-- و -->
+    <path d="M 230 460 C 230 420 200 400 160 400 C 115 400 90 435 90 470 C 90 500 115 515 155 515 C 200 515 225 490 225 470 Z 
+             M 160 435 C 175 435 185 448 185 465 C 185 480 172 490 158 490 C 142 490 130 480 130 465 C 130 448 142 435 160 435 Z" />
+    
+    <!-- الف و ژ -->
+    <path d="M 235 390 L 270 390 C 270 450 260 510 250 535 L 215 535 C 225 500 235 445 235 390 Z" />
+    <path d="M 285 420 C 330 420 365 445 365 485 C 365 525 320 545 270 545 L 260 520 C 300 520 325 505 325 485 C 325 460 295 445 265 445 Z" />
+
+    <!-- هـ و ها -->
+    <path d="M 370 440 C 410 415 470 415 485 465 C 490 490 475 520 440 535 C 400 550 360 535 360 495 C 360 465 375 445 405 445 C 430 445 445 465 445 485 C 445 500 430 510 415 510 C 395 510 385 490 395 475" />
+
+    <!-- Word: صحن (Right Side) -->
+    <!-- ص -->
+    <path d="M 910 465 C 910 430 875 405 810 405 C 730 405 675 440 675 485 C 675 525 730 545 815 545 C 875 545 910 520 910 480 L 870 480 C 870 510 840 520 805 520 C 745 520 715 495 715 470 C 715 445 750 430 805 430 C 850 430 870 445 870 465 Z" />
+    
+    <!-- ح و ن -->
+    <path d="M 670 430 C 640 405 580 405 545 445 C 520 475 530 515 565 535 C 605 555 650 540 660 500 L 620 495 C 615 515 590 520 575 510 C 555 495 555 470 570 455 C 585 440 620 440 635 455 Z" />
+    <path d="M 535 440 C 510 415 450 410 420 445 L 445 465 C 465 445 495 445 510 460 C 525 475 520 515 480 535 L 495 560 C 545 535 555 470 535 440 Z" />
+  </g>
+
+  <!-- Open Book Pages (Pedestal of Knowledge) -->
+  <g stroke="#38bdf8" stroke-width="4.5" fill="none" stroke-linecap="round">
+    <!-- Top Layer of Open Book -->
+    <path d="M 125 530 Q 500 500 500 610 Q 500 500 875 530" />
+    <path d="M 100 550 Q 500 520 500 630 Q 500 520 900 550" />
+    <!-- Bottom Shelf/Cover Arc -->
+    <path d="M 75 580 Q 500 550 500 660 Q 500 550 925 580" stroke-width="5" stroke="#7dd3fc" />
+  </g>
+
+  <!-- Subtitle Divider Lines -->
+  <g>
+    <!-- Left Divider Line with Taper -->
+    <path d="M 75 675 L 165 675" stroke="url(#goldRibbon)" stroke-width="3" stroke-linecap="round" />
+    <circle cx="175" cy="675" r="3" fill="#d4af37" />
+
+    <!-- Right Divider Line with Taper -->
+    <circle cx="825" cy="675" r="3" fill="#d4af37" />
+    <path d="M 835 675 L 925 675" stroke="url(#goldRibbon)" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Subtitle Text: کتابخانه شهید احسان کربلایی پور -->
+  <text
+    x="500"
+    y="686"
+    font-family="'Vazirmatn', sans-serif"
+    font-size="36"
+    font-weight="700"
+    text-anchor="middle"
+    fill="#f8fafc"
+    stroke="#0284c7"
+    stroke-width="1.2"
+    letter-spacing="1px"
+  >
+    کتابخانه شهید احسان کربلایی پور
+  </text>
+</svg>

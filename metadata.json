@@ -1,0 +1,6 @@
+{
+  "name": "کتابخانه شهید احسان کربلایی‌پور",
+  "description": "سامانه جامع و کاتالوگ دیجیتال کتابخانه شهید احسان کربلایی‌پور - جستجو و رزرو بیش از ۷۰۰۰ کتاب، ۱۶ قفسه، ۳۳ موضوع، معرفی کتاب و پنل مدیریت",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eitaaOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="50%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+    <filter id="eitaaShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Orange Squircle with Smooth Rounded Corners matching uploaded image -->
+  <rect width="512" height="512" rx="128" fill="url(#eitaaOrange)" />
+
+  <!-- Eitaa Signature White Calligraphic Emblem -->
+  <!-- Outer looping swoosh and flame glyph -->
+  <path
+    d="M 256 80 
+       C 348 80 422 154 422 250 
+       C 422 338 360 404 276 422 
+       C 358 392 396 320 386 248 
+       C 376 178 316 126 244 126 
+       C 168 126 108 186 108 262 
+       C 108 342 168 404 254 410 
+       C 208 410 168 380 152 340 
+       C 142 314 142 278 168 254 
+       C 188 228 224 228 238 248 
+       C 248 264 244 288 224 298 
+       C 204 304 194 324 204 340 
+       C 214 354 240 360 264 354 
+       C 304 344 340 304 340 258 
+       C 340 198 296 158 236 158 
+       C 164 158 114 218 114 288 
+       C 114 364 180 424 266 424 
+       C 366 424 438 344 438 242 
+       C 438 140 352 64 246 64 
+       C 170 64 114 100 84 150 
+       C 118 106 184 80 256 80 Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Inner teardrop/calligraphic beak cavity -->
+  <path
+    d="M 226 242 C 216 212 236 182 262 192 C 282 202 276 238 252 248 C 236 254 226 248 226 242 Z"
+    fill="url(#eitaaOrange)"
+  />
+</svg>
